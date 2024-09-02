@@ -4,7 +4,6 @@ version = "0.1.0"
 description = "A Product Management Software System for a shop, which consists of a central store and multiple branches. the system is responsible to handle product management, supplier management, tracking product inflows and outflows, damaged products, and inventory transfers between store and branches."
 authors = ["mohd-shibilicv <project.nasra@gmail.com>"]
 readme = "README.md"
-package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
