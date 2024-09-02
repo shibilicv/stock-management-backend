@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "product-management-system-software-backend"
+version = "0.1.0"
+description = "A Product Management Software System for a shop, which consists of a central store and multiple branches. the system is responsible to handle product management, supplier management, tracking product inflows and outflows, damaged products, and inventory transfers between store and branches."
+authors = ["mohd-shibilicv <project.nasra@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1"
+djangorestframework = "^3.15.2"
+django-environs = "^0.1.1"
+django-cors-headers = "^4.4.0"
+djangorestframework-simplejwt = "^5.3.1"
+django-filter = "^24.3"
+psycopg2-binary = "^2.9.9"
+python-barcode = "^0.15.1"
+pillow = "^10.4.0"
+python-dateutil = "^2.9.0.post0"
+whitenoise = "^6.7.0"
+gunicorn = "^23.0.0"
+dj-database-url = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
